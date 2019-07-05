@@ -1,0 +1,94 @@
+.header_text{
+  color: #4D4E68;
+  font-size: 25px;
+  text-align: center;
+  line-height: 20px;
+}
+.main_text{
+  color: #4D4E68;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+  text-align: center;
+  margin-left:10%;
+  margin-right:10%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50px
+}
+
+.content{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.content > div {
+    margin: 0 30px;
+}
+
+.contentheading{
+  color: #4D4E68;
+  font-family:"Baskerville Old Face";
+  font-size: 22px;
+  line-height: 15px;
+}
+.contentsub{
+  color: #4D4E68;
+  font-family:"Baskerville Old Face";
+  font-size: 18px;
+  line-height: 10px;
+}
+
+.jobdate{
+  color: #4D4E68;
+  font-family:"Baskerville Old Face";
+  font-size: 15px;
+  line-height: 10px;
+}
+
+.jobdescription{
+  color: #4D4E68;
+  font-family:"Baskerville Old Face";
+  font-size: 17px;
+  line-height: 17px;
+  text-align: center;
+}
+
+sectionheading {
+  overflow: hidden;
+  text-align: center;
+}
+
+sectionheading:before,
+sectionheading:after {
+  background-color: #4D4E68;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 30%;
+}
+
+sectionheading:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+sectionheading:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+#headshot{
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
