@@ -40,23 +40,48 @@
 .contentsub{
   color: #4D4E68;
   font-family:"Baskerville Old Face";
-  font-size: 18px;
+  font-size: 20px;
   line-height: 10px;
 }
 
 .jobdate{
   color: #4D4E68;
   font-family:"Baskerville Old Face";
-  font-size: 15px;
+  font-size: 18px;
   line-height: 10px;
 }
 
 .jobdescription{
   color: #4D4E68;
   font-family:"Baskerville Old Face";
-  font-size: 17px;
-  line-height: 17px;
+  font-size: 19px;
+  line-height: 19px;
   text-align: center;
+}
+
+.a {
+  font-family: "Baskerville Old Face";
+  font-size: 13px;
+}
+/* unvisited link */
+a:link, a:visited {
+  background-color: Gainsboro;
+  color: #4D4E68;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #4D4E68;
+  border-radius: 30px;
+}
+/* mouse over link */
+a:hover {
+  color: #4D4E68;
+}
+
+/* selected link */
+a:active {
+  color: #4D4E68;
 }
 
 sectionheading {
