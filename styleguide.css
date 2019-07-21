@@ -111,10 +111,11 @@ sectionheading:after {
   margin-right: -50%;
 }
 
-#headshot{
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
+.center_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50px;
   transform: rotate(90deg);
 }
