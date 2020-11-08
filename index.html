@@ -1,86 +1,164 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Micaela Kaplan</title>
-    <link rel="stylesheet" type="text/css" href="styleguide.css">
-    <meta charset="utf-8">
-  </head>
-  <body style="background-color:WhiteSmoke">
-      <a href="Micaela Kaplan Resume.pdf"> Download my resume here! </a>
-      <a href="real_estate.html"> Click here to try the Real Estate Bot! </a>
-      <a href="fluency_friend.html"> Click here to try Fluency Friend! </a>
-      <a href="https://moviemadlibs.herokuapp.com/"> Click here to try Movie MadLibs! </a>
-      <br></br>
-      <img class="center_img" src="M_headshot.jpg" alt="Micaela Kaplan" style="width:300px;height=300px;">
-      <div class="header_text">
-        <h2>Hi, I'm Micaela</h2>
-        <p>Computational Linguist and Data Scientist</p>
-        <sectionheading>About Me</sectionheading>
-      </div>
-      <div class="main_text">
-        <p> MS in Computational Lingustics from Brandeis University. I love looking
-          at the world as a puzzle to solve and enjoy finding creative solutions to everyday problems. Language is a perfect
-          puzzle because it is so closely tied to all of human interaction. I can't wait to help bring people closer
-          to each other by improving the technology that they can access!</p>
-        <p> When I'm not working on finding the next cool pattern in language, you might be able to find me working with
-        my Girl Scout troop on their newest badge, cooking up something yummy, or planning my next trip. Maybe one day I'll
-        use my linguistic training to learn to communicate with the fish I meet when I scuba dive.</p>
-      </div>
-      <div class="header_text">
-        <sectionheading>Relevant Experience</sectionheading>
-      </div>
-      <div class="content">
-        <div>
-          <p class="contentheading">Adobe</p>
-          <p class="contentsub">Linguistic Annotator</p>
-          <p class="jobdate">August 2019 - December 2019</p>
-          <hr size=1 width=90% color=4D4E68>
-          <p class="jobdescription">I annotated a variety of data to be used in machine learning using BRAT annotation software.
-            I worked remotely to ensure consistency across anotations, and was a part of developing an effective annotation schema.</p>
+<!-- adapted from the template at https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_cv&stacked=h -->
+<title>Micaela Kaplan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="styleguide.css"
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="light-purple">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+
+    <!-- Left Column -->
+    <div class="w3-third">
+
+      <div class="text-grey w3-card-4">
+        <div class="w3-display-container" style="box-shadow:3px 3px 10px #4D4E68">
+          <img src="M_headshot.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container text-purple grey-translucent-background">
+            <h2>Micaela Kaplan</h2>
+          </div>
         </div>
-        <div>
-          <p class="contentheading">CallMiner</p>
-          <p class="contentsub">NLP and Machine Learning Research Intern</p>
-          <p class="jobdate">January 2019 - present</p>
-          <hr size=1 width=90% color=4D4E68>
-          <p class="jobdescription">Work on all aspects of machine learning, from the annotation of data and the creation of the golden set and
-            editing Pandas dataframes to model deployment and analysis. Most of my work focuses on sentiment analysis, but I have also helped
-            with projects involving semantic clustering.</p>
-        </div>
-        <div>
-          <p class="contentheading">Brandeis University</p>
-          <p class="contentsub">Data Structures and Algorithms</p>
-          <p class="jobdate">August 2019 - December 2019</p>
-          <hr size=1 width=90% color=4D4E68>
-          <p class="jobdescription">I helped students with data structure analysis, code review,
-            algorithm evaluations, and assignments in weekly office hours. Also helped with grading and helped run some recitation sections to reinforce
-            student learning.</p>
-        </div>
-      </div>
-      <div class="header_text">
-        <sectionheading>Recent Projects</sectionheading>
-      </div>
-      <div class="content">
-        <div>
-          <p class="contentheading">Movie MadLibs</p>
-          <hr size=1 width=90% color=#4D4E68>
-          <p class="jobdescription"> Movie MadLibs is an NER driven MadLibs generator, trained on a custom annotated set of
+        <div class="w3-container" style="background-color:White; box-shadow:7px 7px 10px #4D4E68">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large text-purple"></i>Computational Linguist</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large text-purple"></i>Boston, MA</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large text-purple"></i>micaela@brandeis.edu</p>
+          <p><i class="fa fa-linkedin fa-fw w3-margin-right w3-large text-purple"></i><a href="https://www.linkedin.com/in/micaela-kaplan-2301b2156/" style="color:Grey">Find me on LinkedIn</a></p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right text-purple"></i>Recent Work</b></p>
+
+          <a href="http://noisy-text.github.io/2020/pdf/2020.d200-1.1.pdf"> May I Ask Who’s Calling? Named Entity Recognition on Call Center Transcripts for Privacy Law Compliance</a>
+          <p>Published in Proceedings of the 2020 EMNLP Workshop W-NUT: The Sixth Workshop on Noisy User-generated Text</p>
+
+          <a href="https://moviemadlibs.herokuapp.com/"> Movie MadLibs </a>
+          <p>Movie MadLibs is an NER driven MadLibs generator, trained on a custom annotated set of
           data from OMDB. The blanks are the result of running the text through a CRF model and having all entities appear
         as blanks with the label given by the model.</p>
-        </div>
-        <div>
-          <p class="contentheading">Fluency Friend</p>
-          <hr size=1 width=90% color=#4D4E68>
-          <p class="jobdescription"> Fluency friend is an Alexa and Google Assistant skill whose goal is to teach
+
+
+          <a href="fluency_friend.html"> Fluency Friend </a>
+          <p>Fluency friend is an Alexa and Google Assistant skill whose goal is to teach
             beginning Spanish speakers basic commands. Ask in English, it'll give you Spansih.
             Use Spanish incorrectly, it'll correct you!</p>
-        </div>
-        <div>
-          <p class="contentheading">Real Estate Bot</p>
-          <hr size=1 width=90% color=#4D4E68>
-          <p class="jobdescription">The Real Estate Bot helps users find a house that fits their
+
+          <a href="real_estate.html"> Real Estate Bot </a>
+          <p>The Real Estate Bot helps users find a house that fits their
             needs from a predetermined list of properties in the Boston area. The user can chat with
             their Real Estate Bot through slack, providing an easy to use, friendly companion</p>
-        </div?
 
-  </body>
+          <br>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right text-purple"></i>Technologies & Langauges</b></p>
+          <p class="text-purple">Programming Languages and Packages</p>
+          <p>Python, TensorFlow, PyTorch, Pandas, Numpy, MatPlotLib, SciKit-Learn, SciPy, Natural Language Toolkit,
+          Librosa, Java, Github, DialogFlow, Alexa Developer Tools, Kaldi, basic HTML/CSS</p>
+          <p class="text-purple">Software</p>
+          <p>PyCharm, Eclipse, Praat, DataRobot, Microsoft Office</p>
+          <p class="text-purple">Langauges</p>
+          <p>Fluent in English, Advanced Spanish</p>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom" style="box-shadow:7px 7px 10px #4D4E68">
+        <div class="w3-container w3-card" style="background-color:White; box-shadow:7px 7px 10px #4D4E68">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge text-purple"></i>Education</h2>
+          <div class="w3-container">
+            <h4 class="w3-opacity"><b>Brandeis University</b></h4>
+            <h6 class="text-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Fall 2019 - Spring 2020</h6>
+            <p>M.S. in Computational Linguistics</p>
+            <p><i><u>Relevant Coursework</i></u></p>
+            <i>Statistical Approaches to Natural Language Processing,  Computational Semantics,
+              Fundamentals of Computational Linguistics, Annotation for Machine Learning, Introduction to Natural
+              Language Processing, Automated Speech Recognition</i>
+
+          </div>
+          <div class="w3-container">
+            <h4 class="w3-opacity"><b>Brandies University</b></h4>
+            <h6 class="text-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Fall 2015 - Spring 2019</h6>
+            <p>B.A. in Linguistics Computer Science   <i>Magna Cum Laude</i></p>
+            <p><i><u>Relevant Coursework</u></i></p>
+            <dl>
+              <dt>Computer Science</dt>
+              <dd><i>Data Structures and Fundamentals of Computing,Introduction to Java, Advanced Programing Techniques</i></dd>
+              <dt>Linguistics</dt>
+              <dd><i> Formal Semantics, Syntactic Theory, Morphology, Phonological Theory, Phonetics</i></dd>
+            <hr>
+            <hr>
+          </div>
+        </div>
+
+        <h2 class="text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge text-purple"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Data Scientist and Ethics in AI Lead / CallMiner Inc.</b></h5>
+          <h6 class="text-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2019 - Present</h6>
+          <ul>
+            <li> Managed and directed the annotation process using a novel annotation schema that involved a number
+              of internal annotators as well as third party annotators</li>
+            <li> Developed an implementation of state-of-the-art Named Entity Recognition techniques for use in call transcript NPI/PII redaction
+              and other NER applications </li>
+            <li> Acted as Ethical Focus for team development in creating models and tools for product </li>
+            <li> Lead the process to develop an internal system for acknowledging and addressing ethical problems as they appear in Research</li>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Linguistic Annotator / Adobe</b></h5>
+          <h6 class="text-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2018 - Jan 2019</h6>
+          <p>Annotated linguistic data for semantic relationships</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Computer Science Teaching Assistant / Brandeis University</b></h5>
+          <h6 class="text-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2018 - Dec 2018</h6>
+          <p>Class: Data Structures and Algorithms
+          <ul>
+            <li> Held office hours twice a week to help students with algorithm analysis, runtime complexity, data structure understanding, and assignments</li>
+            <li> Reinforced student understanding in recitation sections with practice problems and detailed explanation of concepts</li><br>
+          </ul>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Computer Science Teaching Assistant / Brandeis University</b></h5>
+          <h6 class="text-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2018 - Dec 2018</h6>
+          <p>Class: Introduction to Java</p>
+          <ul>
+            <li>Reinforced student understanding of Java programming through weekly recitation
+              sections that included reviewing of course material and key concepts and aiding in the
+              completion of practice problems.</li>
+            <li>Held weekly office hours to help students with code review, algorithm evaluation, and
+              assignments.</li>
+        </div>
+      </div>
+
+
+    <!-- End Right Column -->
+    </div>
+
+  <!-- End Grid -->
+  </div>
+
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container purple-background w3-center w3-margin-top w3-text-white">
+  <p>Adapted from <a style="color:White" href="https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_cv&stacked=h">w3.css</a></p>
+</footer>
+
+</body>
+</html>
