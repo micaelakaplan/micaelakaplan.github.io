@@ -66,14 +66,7 @@
 }
 /* unvisited link */
 a:link, a:visited {
-  background-color: Lavender;
   color: #4D4E68;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border: 1px solid #4D4E68;
-  border-radius: 30px;
 }
 /* mouse over link */
 a:hover {
@@ -118,3 +111,19 @@ sectionheading:after {
   width: 50%;
   border-radius: 50px;
 }
+
+w3-display-bottomleft{position:absolute;left:0;bottom:0}.w3-display-bottomright{position:absolute;right:0;bottom:0}
+.w3-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.w3-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.w3-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.text-purple,.hover-text-purple:hover{color:#4D4E68}
+.text-black,.hover-text-black:hover{color:Black}
+.text-grey, .hover-text-grey:hover{color:Grey}
+.text-white, .hover-text-white:hover{color:WhiteSmoke}
+.grey-translucent-background{
+  background-color: rgba(211, 211, 211, .7);
+}
+.purple-background, .hover-purple-background:hover{color:#4D4E68; background-color:#4D4E68 }
+.light-purple,.hover-light-purple:hover{color:rgba(239, 236, 249, .1);background-color:rgba(239, 236, 249, 1)}
