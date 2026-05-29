@@ -1,178 +1,153 @@
 <!DOCTYPE html>
-<html>
-<!-- adapted from the template at https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_cv&stacked=h -->
-<title>Micaela Kaplan</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="styleguide.css"
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-<body class="light-purple">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Micaela Kaplan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styleguide.css">
+</head>
+<body>
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+<div class="page">
+  <div class="grid">
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-
-    <!-- Left Column -->
-    <div class="w3-third">
-
-      <div class="text-grey w3-card-4">
-        <div class="w3-display-container" style="box-shadow:3px 3px 10px #4D4E68">
-          <img src="M_headshot.jpg" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container text-purple grey-translucent-background">
-            <h2>Micaela Kaplan</h2>
+    <!-- Sidebar -->
+    <aside>
+      <div class="card">
+        <div class="profile-header">
+          <img src="M_headshot.jpg" alt="Micaela Kaplan">
+          <div class="profile-name">
+            <h1>Micaela Kaplan</h1>
+            <p>Machine Learning Evangelist</p>
           </div>
         </div>
-        <div class="w3-container" style="background-color:White; box-shadow:7px 7px 10px #4D4E68">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large text-purple"></i>Computational Linguist</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large text-purple"></i>Boston, MA</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large text-purple"></i>kaplan.micaela@gmail.com</p>
-          <p><i class="fa fa-linkedin fa-fw w3-margin-right w3-large text-purple"></i><a href="https://www.linkedin.com/in/micaela-kaplan-2301b2156/" style="color:Grey">Find me on LinkedIn</a></p>
-          <hr>
+        <div class="card-body">
+          <ul class="contact-list">
+            <li><i class="fa-solid fa-location-dot"></i> Boston, MA</li>
+            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:kaplan.micaela@gmail.com">kaplan.micaela@gmail.com</a></li>
+            <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/micaela-kaplan-2301b2156/">LinkedIn</a></li>
+          </ul>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right text-purple"></i>Recent Work</b></p>
+          <hr class="divider">
 
-          <a href="http://noisy-text.github.io/2020/pdf/2020.d200-1.1.pdf"> May I Ask Who’s Calling? Named Entity Recognition on Call Center Transcripts for Privacy Law Compliance</a>
-          <p>Published in Proceedings of the 2020 EMNLP Workshop W-NUT: The Sixth Workshop on Noisy User-generated Text</p>
+          <h2 class="section-title"><i class="fa-solid fa-clapperboard"></i> Recent Work</h2>
 
-          <a href="https://moviemadlibs.herokuapp.com/"> Movie MadLibs </a>
-          <p>Movie MadLibs is an NER driven MadLibs generator, trained on a custom annotated set of
-          data from OMDB. The blanks are the result of running the text through a CRF model and having all entities appear
-        as blanks with the label given by the model.</p>
-
-
-          <a href="fluency_friend.html"> Fluency Friend </a>
-          <p>Fluency friend is an Alexa and Google Assistant skill whose goal is to teach
-            beginning Spanish speakers basic commands. Ask in English, it'll give you Spansih.
-            Use Spanish incorrectly, it'll correct you!</p>
-
-          <a href="real_estate.html"> Real Estate Bot </a>
-          <p>The Real Estate Bot helps users find a house that fits their
-            needs from a predetermined list of properties in the Boston area. The user can chat with
-            their Real Estate Bot through slack, providing an easy to use, friendly companion</p>
-
-          <br>
-
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right text-purple"></i>Technologies & Langauges</b></p>
-          <p class="text-purple">Programming Languages and Packages</p>
-          <p>Python, TensorFlow, PyTorch, Pandas, Numpy, MatPlotLib, SciKit-Learn, SciPy, Natural Language Toolkit,
-          Librosa, Java, Github, DialogFlow, Alexa Developer Tools, Kaldi, basic HTML/CSS</p>
-          <p class="text-purple">Software</p>
-          <p>PyCharm, Eclipse, Praat, DataRobot, Microsoft Office</p>
-          <p class="text-purple">Langauges</p>
-          <p>Fluent in English, Advanced Spanish</p>
-          <br>
-        </div>
-      </div><br>
-
-    <!-- End Left Column -->
-    </div>
-
-    <!-- Right Column -->
-    <div class="w3-twothird">
-
-      <div class="w3-container w3-card w3-white w3-margin-bottom" style="box-shadow:7px 7px 10px #4D4E68">
-        <div class="w3-container w3-card" style="background-color:White; box-shadow:7px 7px 10px #4D4E68">
-          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge text-purple"></i>Education</h2>
-          <div class="w3-container">
-            <h4 class="w3-opacity"><b>Brandeis University</b></h4>
-            <h6 class="text-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Fall 2019 - Spring 2020</h6>
-            <p>M.S. in Computational Linguistics</p>
-            <p><i><u>Relevant Coursework</i></u></p>
-            <i>Statistical Approaches to Natural Language Processing,  Computational Semantics,
-              Fundamentals of Computational Linguistics, Annotation for Machine Learning, Introduction to Natural
-              Language Processing, Automated Speech Recognition</i>
-
+          <div class="project-item">
+            <a href="https://www.youtube.com/playlist?list=PLDqcjLIsFtX3aWMhVRNNQpwbDKQeCKTVc">In the Loop</a>
+            <p>Scripted, filmed, and animated a video series of shorts on data science topics.</p>
           </div>
-          <div class="w3-container">
-            <h4 class="w3-opacity"><b>Brandeis University</b></h4>
-            <h6 class="text-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Fall 2015 - Spring 2019</h6>
-            <p>B.A. in Linguistics Computer Science   <i>Magna Cum Laude</i></p>
-            <p><i><u>Relevant Coursework</u></i></p>
-            <dl>
-              <dt>Computer Science</dt>
-              <dd><i>Data Structures and Fundamentals of Computing,Introduction to Java, Advanced Programing Techniques</i></dd>
-              <dt>Linguistics</dt>
-              <dd><i> Formal Semantics, Syntactic Theory, Morphology, Phonological Theory, Phonetics</i></dd>
-            <hr>
-            <hr>
-          </div>
-        </div>
 
-        <h2 class="text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge text-purple"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Scientist (NLP)/ SiriusXM/Pandora</b></h5>
-          <h6 class="text-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2019 - July 2022 </h6>
-          <ul>
-            <li> Developed joint entity and intent recognition for spoken systems </li>
-            <li> Managed and directed the annotation of novel datasets with novel schemas </li>
-            <li> Worked with engineers to implement production ready code to improve product use </li>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Data Scientist and Ethics in AI Lead / CallMiner Inc.</b></h5>
-          <h6 class="text-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2019 - July 2022 </h6>
-          <ul>
-            <li>Conducted state-of-the-art research on many aspects of NLP and Machine Learning, such as
-            Sentiment/Emotion, NER, and Question Answering, including the implementation of work from
-            published resources and custom developed approaches. </li>
-            <li>Developed an implementation of state-of-the-art Named Entity Recognition techniques for use in call
-              transcript NPI/PII redaction</li>
-            <li>Organized and executed full scale annotation, including creating the schema, collecting and preparing the
-              data, and communicating with third party annotators</li>
-            <li>Lead the process to develop an internal system for acknowledging and addressing ethical problems as
-              they appear in Research</li>
-            <li>Design and encourage professional development on Responsible AI through team meetings and group
-            attendance and discussion of online webinars, as well as producing written and webinar content around
-            Responsible AI.</li>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Linguistic Annotator / Adobe</b></h5>
-          <h6 class="text-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2018 - Jan 2019</h6>
-          <p>Annotated linguistic data for semantic relationships</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Computer Science Teaching Assistant / Brandeis University</b></h5>
-          <h6 class="text-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2018 - Dec 2018</h6>
-          <p>Class: Data Structures and Algorithms
-          <ul>
-            <li> Held office hours twice a week to help students with algorithm analysis, runtime complexity, data structure understanding, and assignments</li>
-            <li> Reinforced student understanding in recitation sections with practice problems and detailed explanation of concepts</li><br>
+          <div class="project-item">
+            <a href="https://www.youtube.com/watch?v=L5EsXvMxvEc&t=1877s">Why Benchmarks Matter: Building Better AI Evaluation Frameworks</a>
+            <p>Co-led a live webinar on practical AI evaluation workflows and benchmarks; recording available on YouTube.</p>
+          </div>
+
+          <div class="project-item">
+            <a href="http://noisy-text.github.io/2020/pdf/2020.d200-1.1.pdf">May I Ask Who's Calling? Named Entity Recognition on Call Center Transcripts for Privacy Law Compliance</a>
+            <p>Published at the Sixth Workshop on Noisy User-generated Text (W-NUT 2020).</p>
+          </div>
+
+          <hr class="divider">
+
+          <h2 class="section-title"><i class="fa-solid fa-code"></i> Technologies</h2>
+
+          <p class="subsection-title">Languages &amp; Frameworks</p>
+          <ul class="tag-list">
+            <li>HTML/CSS</li><li>Java</li><li>NLTK</li><li>NumPy</li><li>Pandas</li>
+            <li>Python</li><li>PyTorch</li><li>scikit-learn</li><li>TensorFlow</li>
+          </ul>
+
+          <p class="subsection-title">Tools</p>
+          <ul class="tag-list">
+            <li>GitHub</li><li>Cursor</li><li>Alexa Developer</li><li>CapCut</li>
+            <li>PyCharm</li><li>DataRobot</li>
+          </ul>
+
+          <p class="subsection-title">Languages</p>
+          <ul class="tag-list">
+            <li>English</li><li>Spanish</li>
           </ul>
         </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Computer Science Teaching Assistant / Brandeis University</b></h5>
-          <h6 class="text-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2018 - Dec 2018</h6>
-          <p>Class: Introduction to Java</p>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main>
+      <div class="card card-body">
+        <h2 class="section-title"><i class="fa-solid fa-user"></i> Summary</h2>
+        <p class="summary-text">Machine Learning Evangelist with 5+ years of experience at the intersection of NLP research and developer education. Proven track record of translating complex ML concepts into compelling technical content including talks, tutorials, videos, and live demos that drive adoption and deepen community engagement. Background in computational linguistics and responsible AI brings a distinctive, principled perspective to developer relations.</p>
+      </div>
+
+      <div class="card card-body">
+        <h2 class="section-title"><i class="fa-solid fa-briefcase"></i> Work Experience</h2>
+
+        <div class="entry">
+          <div class="entry-header">
+            <h3 class="entry-title">Machine Learning Evangelist · <span class="entry-company">HumanSignal</span></h3>
+          </div>
+          <p class="entry-meta">July 2024 – Present · Remote</p>
           <ul>
-            <li>Reinforced student understanding of Java programming through weekly recitation
-              sections that included reviewing of course material and key concepts and aiding in the
-              completion of practice problems.</li>
-            <li>Held weekly office hours to help students with code review, algorithm evaluation, and
-              assignments.</li>
+            <li>Create and deliver technical content across formats including sample code, video tutorials, written guides, and conference talks, focused on product workflows and new features</li>
+            <li>Partner with Engineering and Product to understand and accurately communicate new capabilities to developer audiences, shortening the feedback loop between users and the product team</li>
+            <li>Design and lead technical enablement sessions for both internal teams and external customers, covering everything from feature walkthroughs to foundational data science concepts</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <h3 class="entry-title">Scientist · <span class="entry-company">SiriusXM</span></h3>
+          </div>
+          <p class="entry-meta">July 2022 – July 2024 · Remote</p>
+          <ul>
+            <li>Built joint intent and entity prediction models deployed in real-time production systems serving millions of users</li>
+            <li>Collaborated cross-functionally with engineering to ship production-ready NLP services</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <h3 class="entry-title">Data Scientist &amp; Responsible AI Lead · <span class="entry-company">CallMiner</span></h3>
+          </div>
+          <p class="entry-meta">May 2020 – May 2022 · Waltham, MA</p>
+          <ul>
+            <li>Implemented a state-of-the-art Named Entity Recognition system for NPI/PII redaction in call transcripts, directly enabling customer compliance workflows</li>
+            <li>Conducted and applied research across NLP subfields including Sentiment/Emotion Analysis, NER, and Question Answering</li>
+            <li>Managed end-to-end annotation pipelines: schema design, data preparation, and coordination with third-party annotation teams</li>
+          </ul>
         </div>
       </div>
 
+      <div class="card card-body">
+        <h2 class="section-title"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
 
-    <!-- End Right Column -->
-    </div>
+        <div class="entry">
+          <div class="entry-header">
+            <h3 class="entry-title">Brandeis University</h3>
+            <p class="entry-meta">May 2020</p>
+          </div>
+          <p class="education-degree">M.S. in Computational Linguistics</p>
+        </div>
 
-  <!-- End Grid -->
+        <div class="entry">
+          <div class="entry-header">
+            <h3 class="entry-title">Brandeis University</h3>
+            <p class="entry-meta">May 2019</p>
+          </div>
+          <p class="education-degree">B.A. in Linguistics and Computer Science — <em>Magna Cum Laude</em></p>
+          <p class="education-note">Relevant coursework: Statistical Approaches to NLP, Computational Semantics, Information Extraction, Annotation for Machine Learning, Automated Speech Recognition</p>
+        </div>
+      </div>
+    </main>
+
   </div>
-
-  <!-- End Page Container -->
 </div>
 
-<footer class="w3-container purple-background w3-center w3-margin-top w3-text-white">
-  <p>Adapted from <a style="color:White" href="https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_cv&stacked=h">w3.css</a></p>
+<footer class="site-footer">
+  <p>Layout inspired by <a href="https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_cv&stacked=h">w3.css CV template</a></p>
 </footer>
 
 </body>
